@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer-h3 {
+  @apply uppercase font-montserrat font-bold text-xl pb-4;
+}
+
+.debug {
+  @apply border border-red-700;
+}
+.current-menu-item {
+  border-bottom: 2px solid #222222;
+}
+.single-post-container h2 {
+  @apply font-oswald text-2xl;
+}
+.single-post-container h3 {
+  @apply font-oswald text-xl;
+}
+.single-post-container h4 {
+  @apply font-oswald text-lg;
+}
